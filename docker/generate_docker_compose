@@ -109,4 +109,6 @@ def main():
 
 
 if __name__ == "__main__":
+    docker_dir = os.path.realpath(os.path.dirname(__file__))
+    os.chdir(docker_dir)
     main()
